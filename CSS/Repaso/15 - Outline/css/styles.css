@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: white;
+}
+
+.border, .outline{
+    background-color: #666;
+    width: 100px;
+    padding: 10px 25px;
+    margin:50px 100px;
+}
+
+.border{
+    border:2px tomato solid;
+}
+
+.outline{
+    outline: 3px tomato dashed;
+    outline-offset: -13px;
+    border: 3px inset lightgreen;
+}
+

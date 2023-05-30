@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(47, 47, 47);
+}
+
+*{
+    margin: 0;
+}
+
+.header{
+    background-color: lightsalmon;
+    height: 100px;
+    margin-bottom: 20px;
+    /* overflow: hidden; PARA EL PROBLEMA DE COLAPSADO PADRE E HIJOS */
+}
+
+.box-1, .box-2{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    width: 300px;
+    height: 300px;
+}
+
+.box-2{
+    margin-top: 30px;
+}

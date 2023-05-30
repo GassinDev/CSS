@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    margin: 0;
+    color:white;
+}
+
+.container-box{
+    width: 200px;
+    height: 200px;
+    background-color: #555;
+    position: relative;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #333;    
+}
+
+.box-1{
+    background-color: lightsalmon;
+    position: relative;
+    left: 150px;
+    z-index: -1;
+}
+
+.box-1-2{
+    background-color: lightgrey;
+    position: relative;
+    left: 150px;
+    top: -25px;
+    z-index: -2;
+}
+
+.box-2{
+    background-color: lightgreen;
+    position:relative;
+    top: 50px;
+    z-index: auto;
+}
+
+.box-3{
+    background-color: lightseagreen;
+    position: relative;
+}

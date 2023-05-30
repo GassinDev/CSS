@@ -1,0 +1,85 @@
+/* SELECTORES */
+
+/* *{
+    background-color: lightpink;
+}
+
+h1{
+    background-color: lightseagreen;
+}
+
+p{
+    background-color: lime ;
+}
+
+ul{
+    background-color: magenta;
+}
+
+li{
+    background-color: maroon;
+} */
+
+#pene{
+    background-color: mediumorchid;
+}
+
+.titulo{
+    background-color: mediumvioletred;
+}
+
+.textos{
+    background-color: moccasin;
+}
+
+[href]{
+    background-color: olivedrab;
+}
+[href="hola.com"]{
+    background-color: palevioletred;
+}
+
+[href^="map"]{
+    background-color: red;
+}
+
+[href*="ome"]{
+    background-color: rgb(68, 0, 255);
+}
+
+[href$="es"]{
+    background-color: saddlebrown;
+}
+
+[lang|="en"]{
+    background-color: seagreen;
+}
+
+/* ---------------------------------------------------- */
+
+.texto-1, .texto-2, .texto-3, .texto-4{
+    background-color: skyblue;
+}
+
+div .title-2{
+    background-color: slateblue;
+} 
+
+/* debajo del uno o del otro */
+
+.texto-2 + .title-2{
+    background-color: tomato;
+}
+
+.title-3 ~ p{
+    background-color: green;
+}
+
+.texto-4 ~ span{
+    background-color: violet;
+}
+
+/* .container > p{
+    background-color: tomato;
+} */
+

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: white;
+    margin: 0;
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: lightskyblue;
+    width: 300px;
+    height: 300px;
+    color: black;
+    /* hidden, scroll, auto*/
+    /* overflow:auto; */
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.box-1, .box-2{
+    padding: 20px;
+    background-color: tomato;
+}
+
+.texto{
+    /* width: 350px; */
+    margin: 0;
+}

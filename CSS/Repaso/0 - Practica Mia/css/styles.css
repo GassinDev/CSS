@@ -1,0 +1,49 @@
+.mono a:nth-child(3n + 1){
+    color: red;
+}
+
+input[type="submit"]{
+    background-color: red;
+}
+
+input[type="number"]{
+    background-color: royalblue;
+}
+
+.code::before{
+    content: "<" ;
+}
+
+.code::after{
+    content: ">" ;
+}
+
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: black solid 2px;
+    margin: 30px;
+    border-radius: 5px 100px 25px 90px / 15px 14px 100px 5px;
+    box-shadow:inset -9px -10px 1px 5px green;
+}
+
+.box-2{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    align-items: center;
+    position:absolute;
+    top: 5px;
+    left: 12px;
+}
+
+ul {
+    counter-reset: contador; /*Inicio contador */
+}
+
+li::before{
+    content: "(" counter(contador) ")"; /*Le digo que ponga parentesis, en medio el numero del contador, y al otro lado parentesis */
+    counter-increment: contador; /*Aumento el contador*/
+} 

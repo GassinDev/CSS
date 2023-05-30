@@ -1,0 +1,71 @@
+body{
+    background-color: #333;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.block {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    /* margin: 100px 50px 10px 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border:5px solid red;
+}
+body{
+    margin: 0;
+}
+.title2{
+    background-color: green;
+    margin: 0;
+}
+
+/* LOS ELEMENTOS EN LINEA NO TIENE ALTURA Y ANCHURA, SOLO ELEMENTOS DE BLOQUE*/
+
+.inline{
+    background-color: lightcoral;
+    color: inherit;
+    /* margin-left: 100px; */
+    /* padding-bottom: 100px; */
+}
+
+.title{
+    margin-left: auto;
+    background-color: lightcoral;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons{
+    background-color: lightskyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+/* dashe, groove, solid, hidden, dotted, double, ridge, outset*/
+.button{
+    margin-left: 130px;
+    padding: 25px 50px;
+    border: 20px solid red;
+    border-style: groove;
+    border-color: red;
+    border-width: 15px;
+    border-right-color: blueviolet;
+    border-right-width: 5px;
+}
+
+
+
+
+
+
+
+
+
